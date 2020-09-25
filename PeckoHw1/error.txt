@@ -1,0 +1,10 @@
+PeckoHw1a.c:7:6: error: conflicting types for 'mergesort'
+    7 | void mergesort(int* a, int* aux, int length)
+      |      ^~~~~~~~~
+In file included from PeckoHw1a.c:2:
+/usr/include/stdlib.h:294:6: note: previous declaration of 'mergesort' was here
+  294 | int  mergesort(void *, size_t, size_t, int (*)(const void *, const void *));
+      |      ^~~~~~~~~
+PeckoHw1a.c:60:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   60 | main()
+      | ^~~~
